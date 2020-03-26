@@ -262,8 +262,10 @@ static NSObject<FlutterPluginRegistrar> *_registrar;
   // therefore the next line is setting it to 1 first before clearing it again
   // to remove all
   // notifications.
-  application.applicationIconBadgeNumber = 1;
-  application.applicationIconBadgeNumber = 0;
+// Icon badge reset commented out because it causes all notifications
+// to be cleared every time the app is opened. - Jamie Halmick
+//  application.applicationIconBadgeNumber = 1;
+//  application.applicationIconBadgeNumber = 0;
 }
 
 - (BOOL)application:(UIApplication *)application
