@@ -1,3 +1,11 @@
+## 3.1.6
+
+* Update lower bound of dart dependency to 2.0.0.
+
+## 3.1.5
+
+* Add macOS support
+
 ## 3.1.4
 
 * Fix for missing UserAgent.h compilation failures.
